@@ -126,7 +126,7 @@ def generate_answer(query, contexts):
 
     client = OpenAI(
         base_url="https://integrate.api.nvidia.com/v1",
-        api_key="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"
+        api_key="your api here"
     )
 
     completion = client.chat.completions.create(
